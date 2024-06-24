@@ -6,13 +6,13 @@ const ProductList = () => {
     {
       id: 1,
       name: 'Deal 1',
-      imageUrl: 'https://product.hstatic.net/200000073977/product/pro_50ml_2_5b5cf038668f406d8b25ccd089638d30_compact.png',
+      imageUrl: 'https://product.hstatic.net/200000073977/product/pro_hop_3_mieng_5_673ea2b644594df098be1dcb2972c383_large_9731e743011647ea9922047a15087cb0_master.png',
       price: '$10',
     },
     {
       id: 2,
       name: 'Deal 2',
-      imageUrl: 'https://product.hstatic.net/200000073977/product/pro_50ml_4_c408be6765134290b88139ac705f55c2_compact.png',
+      imageUrl: 'https://product.hstatic.net/200000073977/product/pro_hop_3_mieng_4_2149a7556f884e93b5dc006724030a14_large_d3aba687ec504bb695dbb226befb13ce_master.png',
       price: '$15',
     },
     {

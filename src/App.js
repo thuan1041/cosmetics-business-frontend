@@ -8,6 +8,12 @@ import Header from './layouts/Header';
 import Footer from './layouts/Footer';
 import LoginPage from './pages/LoginPage';
 
+// import 'antd/dist/antd.css';
+import { Layout } from 'antd';
+import ProductDetail from './components/ProductDetail';
+
+const { Content } = Layout;
+
 const App = () => {
   return (
     <>
@@ -19,6 +25,7 @@ const App = () => {
             <Route path="/products" element={<ProductPage />} />
             <Route path="/register" element={<RegistrationPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
           </Routes>
         </main>
         <Footer />

@@ -1,0 +1,28 @@
+.product-detail {
+    padding: 20px;
+}
+
+.product-info {
+    max-width: 400px;
+}
+
+.thumbnail-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 50px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.active-thumbnail {
+    border-color: #1890ff;
+}
+
+.product-details {
+    margin-top: 20px;
+}
