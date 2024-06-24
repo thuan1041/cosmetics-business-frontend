@@ -19,11 +19,9 @@ const ProductDetail = () => {
             'https://product.hstatic.net/200000073977/product/pro_hop_3_mieng_2_13789ed42ac14f279f4dfd35677004c5_large_6b3a33cfeb2a425f8db80c5857e54552_master.png',
             'https://product.hstatic.net/200000073977/product/premium-rice-mask_-_mua_2_tang_1_7478ee58acd7426b805e585ec98109b2_master.png',
             'https://product.hstatic.net/200000073977/product/pro_hop_3_mieng_4_2149a7556f884e93b5dc006724030a14_large_d3aba687ec504bb695dbb226befb13ce_master.png',
-            'https://product.hstatic.net/200000073977/product/premium-rice-mask_-_mua_2_tang_1_7478ee58acd7426b805e585ec98109b2_master.png',
-            'https://product.hstatic.net/200000073977/product/pro_hop_3_mieng_4_2149a7556f884e93b5dc006724030a14_large_d3aba687ec504bb695dbb226befb13ce_master.png',
         ],
         types: ['Loại 1', 'Loại 2', 'Loại 3'],
-        details: "Thông tin chi tiết sản phẩm"
+        details: "Thông tin chi tiết sản phẩm Thông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩmThông tin chi tiết sản phẩm"
     };
 
     const handleImageHover = (image) => {
@@ -42,7 +40,7 @@ const ProductDetail = () => {
                                     src={image}
                                     alt={`Product Image ${index}`}
                                     preview={{ maskClassName: 'custom-mask' }}
-                                    style={{ width: '100%', height: '600px' }}
+                                    style={{ width: '100%', height: '400px' }}
 
                                 />
                             </div>
@@ -61,7 +59,7 @@ const ProductDetail = () => {
                         ))}
                     </div>
                 </Col>
-                <Col span={12}>
+                <Col span={14}>
                     <div className="product-info">
                         <h2>{product.name}</h2>
                         <h3>{product.price}</h3>

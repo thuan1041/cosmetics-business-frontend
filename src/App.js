@@ -11,6 +11,8 @@ import LoginPage from './pages/LoginPage';
 // import 'antd/dist/antd.css';
 import { Layout } from 'antd';
 import ProductDetail from './components/ProductDetail';
+import MainLayout from './layouts/MainLayout';
+import ProductItem from './components/ProductItem';
 
 const { Content } = Layout;
 
@@ -25,7 +27,7 @@ const App = () => {
             <Route path="/products" element={<ProductPage />} />
             <Route path="/register" element={<RegistrationPage />} />
             <Route path="/login" element={<LoginPage />} />
-            <Route path="/product/:id" element={<ProductDetail />} />
+            <Route path="/product/:id" element={<MainLayout />} />
           </Routes>
         </main>
         <Footer />
