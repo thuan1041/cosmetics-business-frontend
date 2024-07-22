@@ -53,7 +53,7 @@ const Header = () => {
             <Button type="link" icon={<HeartOutlined />} style={{ color: 'white' }}>Yêu thích</Button>
             <Button type="link" icon={<ShoppingCartOutlined />} style={{ color: 'white' }}>
               <Badge count={5} offset={[10, 0]}>
-                Giỏ hàng
+                <a style={{color:'white'}} >Giỏ hàng</a>
               </Badge>
             </Button>
             <Button type="link" style={{ color: 'white' }}>Đăng nhập/Đăng ký</Button>
@@ -63,7 +63,7 @@ const Header = () => {
           </div>
         </div>
       </AntHeader>
-      <Menu theme="dark" mode="horizontal" items={headerMenuItems}  style={{padding:"0 90px"}}/>
+      <Menu theme="dark" mode="horizontal" items={headerMenuItems}  style={{padding:"0 90                                                                                             px"}}/>
     </>
   );
 };
