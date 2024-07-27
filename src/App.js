@@ -13,6 +13,7 @@ import { Layout } from 'antd';
 import ProductDetail from './components/ProductDetail';
 import MainLayout from './layouts/MainLayout';
 import ProductItem from './components/ProductItem';
+import CartPage from './pages/CartPage';
 
 const { Content } = Layout;
 
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/register" element={<RegistrationPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/product/:id" element={<MainLayout />} />
+            <Route path="/cart" element={<CartPage />} />
           </Routes>
         </main>
         <Footer />

@@ -16,7 +16,7 @@ const MainLayout = ({ children }) => {
           </div>
           <ProductDetail />
         </Content>
-        <Sidebar />
+        {/* <Sidebar /> */}
       {/* </Layout> */}
     </Layout>
   );
